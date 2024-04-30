@@ -6,7 +6,6 @@ public class RockPaperScissors {
 		while (true) {
 			String[] rps = { "r", "p", "s" };
 			String ComputerMove = rps[new Random().nextInt(rps.length)];
-
 			String PlayerMove;
 			while (true) {
 				System.out.println(" please enter you'r option Rock , Paper or Scissors ");
