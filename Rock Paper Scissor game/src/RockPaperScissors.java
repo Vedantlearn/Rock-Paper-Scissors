@@ -12,7 +12,7 @@ public class RockPaperScissors {
 				PlayerMove = scanner.nextLine();
 				if (PlayerMove.equals("r") || PlayerMove.equals("p") || PlayerMove.equals("s")) {
 					break;
-				}
+				} 
 				System.out.print(PlayerMove + " is Invalid Move ");
 			}
 			System.out.print(" ComputerMove is " + ComputerMove + " ");
