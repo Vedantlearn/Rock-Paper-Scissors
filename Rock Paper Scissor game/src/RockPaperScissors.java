@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class RockPaperScissors {
 	public static void main(String[] args) {  
 		Scanner scanner = new Scanner(System.in);
-		while (true) {
+		while (true) {   
 			String[] rps = { "r", "p", "s" }; 
 			String ComputerMove = rps[new Random().nextInt(rps.length)];
 			String PlayerMove;
